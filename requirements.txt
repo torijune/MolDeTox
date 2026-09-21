@@ -1,0 +1,13 @@
+rdkit>=2022.9.3
+numpy>=1.21.0
+pandas>=1.5.0
+tqdm>=4.64.0
+safe-mol>=0.1.14
+datamol>=0.11.0
+loguru>=0.6.0
+openai>=1.0.0
+
+# optional
+rapidfuzz>=3.0.0        # faster Levenshtein screening in ToxicityCliff_pairing.py
+transformers>=4.40.0    # local models in inference.py
+vllm>=0.6.0             # local models in inference.py

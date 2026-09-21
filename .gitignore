@@ -1,0 +1,25 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Local / secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter / tooling
+.ipynb_checkpoints/
+.idea/
+.vscode/
+
+# Packaging
+*.egg-info/
+dist/
+build/
